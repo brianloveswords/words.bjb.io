@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title | default("words.bjb.io")}}</title>
+    <link rel="stylesheet" type="text/css" href="/css/fira.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  </head>
+  <body class="{{ type }}">
+    <header>
+      {% block header %}{% endblock %}
+    </header>
+    <section class="content">
+      {% block content %}{% endblock %}
+    </section>
+    <footer>
+      {% block footer %}{% endblock %}
+    </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
+    {% block scripts %}{% endblock %}
+  </body>
+</html>

@@ -1,0 +1,8 @@
+body {
+  position: relative;
+  width: 32em;
+  font-family: 'Fira Sans';
+  line-height: 1.3em;
+  padding: 1em 0 0 0;
+  margin: auto;
+}

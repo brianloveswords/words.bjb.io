@@ -1,0 +1,15 @@
+http://words.bjb.io/2013 # shows all posts from 2013
+http://words.bjb.io/2013/08 # shows all posts from 2013-08
+http://words.bjb.io/2013/08/13 # shows all posts from 2013-08-13
+http://words.bjb.io/coooking # coooking tag
+http://words.bjb.io/javascript # javascript tag
+http://words.bjb.io/coooking/javascript # coooking & javascript tags
+http://words.bjb.io/2013/coooking # all coooking posts from 2013
+http://words.bjb.io/coooking/2013 # all coooking posts from 2013
+http://words.bjb.io/title-of-post # shows post unless shadowed from above
+http://words.bjb.io/:title-of-post # always shows post
+
+
+# load default meta: posts/meta.yml
+# readdirs from post directory. dirnames == post slugs
+# combine
